@@ -6,7 +6,7 @@ class Parser:
         self.file_path = file_path
 
     def parse(self):
-        raise NotImplementedError("Please notice: not implemented error")
+        raise NotImplementedError("Please notice: something went wrong")
 
 
 class JsonParse(Parser):

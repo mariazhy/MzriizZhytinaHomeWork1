@@ -1,6 +1,6 @@
 def remove_duplicates(s: str):
     """
-    Task 1: This method removes duplicates in a string.
+    Task1: This method removes duplicates in a string.
     :param s: input string
     """
     my_list = s.split()

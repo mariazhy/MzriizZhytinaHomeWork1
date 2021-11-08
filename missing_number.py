@@ -10,7 +10,7 @@ class MissingNumber:
         :param nums: input list of numbers
         """
         nums.sort()
-        print(f"Sorted input list: {nums}")
+        print(f"Sorted input list is next: {nums}")
         for i in nums:
             if nums[i + 1] - nums[i] > 1:
                 return nums[i] + 1

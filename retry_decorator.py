@@ -3,6 +3,7 @@ from random import randint
 
 
 def retry(expected_result):
+    """decorator that will re-execute function until expected result met"""
     def decorator(func):
         @wraps(func)
         def wrapper():
